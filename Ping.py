@@ -1,3 +1,4 @@
 import os
 
-os.system("ping google.com")
+url = input('Enter URL: ')
+os.system("ping " + url)
